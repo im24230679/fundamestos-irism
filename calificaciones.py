@@ -6,7 +6,7 @@ cali2 = "9"
 cali3 = "8"
 
 # calcular el promedio
-promedio = (calificaión1 + cali2 + cali3)/3
+promedio = (cali1 + cali2 + cali3)/3
 
 # mostrar el promedio
 print ("El promedio de las tres calificaciones es: "promedio")
