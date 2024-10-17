@@ -1,0 +1,19 @@
+
+import time
+
+def reloj_simulado():
+    horas = 0
+    minutos = 0
+
+    while True:
+        print(f"{horas:02}:{minutos:02}")
+        time.sleep(0.01) 
+
+        minutos += 1
+        if minutos == 60: 
+            minutos = 0
+            horas += 1
+        if horas == 24:  
+            horas = 0
+
+reloj_simulado()
